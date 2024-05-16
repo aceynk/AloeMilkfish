@@ -1,0 +1,26 @@
+{
+    "object.milkfish.displayname": "Sabalote",
+    "object.milkfish.description": "En realidad no está hecho de leche, ¿verdad?",
+
+    "object.goldenmilkfish.displayname": "Sabalote Dorado",
+    "object.goldenmilkfish.description": "Justa afueras de la ciudad\nestaba sosteniendo algo\nque nadie había visto antes.",
+
+    "fishpond.milkfish.status0": "vive y deja vivir, dejemos que se las arreglen",
+    "fishpond.milkfish.status1": "te daría todas las cosas que debería guardarme para mí. aparte de {1} {0}",
+    "fishpond.milkfish.status2": "y se para y empieza y para y empieza",
+    "fishpond.milkfish.status3": "haz una foto, espero que dure mucho",
+
+    "fishpond.goldenmilkfish.status0": "sé que estás en algo",
+    "fishpond.goldenmilkfish.status1": "Yo era algo así como una mascota",
+
+    "fishpond.milkfish.pending0": "Dejé que la admiración me subiera a la cabeza",
+    "fishpond.milkfish.pending1": "esto podría ir en dos direcciones ahora",
+
+    "fishpond.goldenmilkfish.pending0": "sé que estás en algo",
+    "fishpond.goldenmilkfish.pending1": "y luego estropearon el amuleto de la suerte",
+
+    "fishpond.milkfish.complete0": "hermoso todo hermoso todo",
+    "fishpond.milkfish.complete1": "Supongo que nunca lo ves venir cuando sale del campo izquierdo",
+    
+    "fishpond.goldenmilkfish.complete0": "la canción de {0}"
+}

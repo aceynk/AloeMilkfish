@@ -1,0 +1,217 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Aceynk.AloeMilkfish_Milkfish": {
+                    "Name": "Milkfish",
+                    "DisplayName": "{{i18n:object.milkfish.displayname}}",
+                    "Description": "{{i18n:object.milkfish.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 165,
+                    "Texture": "Mods/{{ModID}}/Milkfish",
+                    "SpriteIndex": 0,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "color_blue",
+                        "fish_milkfish",
+                        "season_fall",
+                        "season_winter",
+                        "id_(o){{ModID}}_Milkfish",
+                        "fish_talk_milkfish"
+                    ]
+                },
+                "Aceynk.AloeMilkfish_GoldenMilkfish": {
+                    "Name": "Golden Milkfish",
+                    "DisplayName": "{{i18n:object.goldenmilkfish.displayname}}",
+                    "Description": "{{i18n:object.goldenmilkfish.description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 835,
+                    "Texture": "Mods/{{ModID}}/GoldenMilkfish",
+                    "SpriteIndex": 0,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "color_gold",
+                        "fish_goldenmilkfish",
+                        "season_fall",
+                        "season_winter",
+                        "id_(o){{ModID}}_GoldenMilkfish",
+                        "fish_talk_goldenmilkfish"
+                    ]
+                }
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Milkfish",
+            "FromFile": "assets/Milkfish.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/GoldenMilkfish",
+            "FromFile": "assets/GoldenMilkfish.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/MilkfishSpritesheet",
+            "FromFile": "assets/MilkfishSpritesheet.png"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/fish.json, code/locations.json"
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "Aceynk.AloeMilkfish_Milkfish": "0/fish/////Mods\\{{ModID}}\\MilkfishSpritesheet",
+                "Aceynk.AloeMilkfish_GoldenMilkfish": "1/fish/////Mods\\{{ModID}}\\MilkfishSpritesheet"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+                "id_(o)aceynk.aloemilkfish_milkfish": {
+                    "RequiredTags": [
+                        "fish_milkfish"
+                    ],
+                    "SpawnTime": 2,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.1,
+                            "ItemID": "SkillBook_1",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.3,
+                            "ItemID": "186",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.4,
+                            "ItemID": "184",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.4,
+                            "ItemID": "812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.5,
+                            "ItemID": "812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        }
+                    ],
+                    "PopulationGates": {
+                        "4": [
+                            "(O)SeaJelly 1"
+                        ],
+                        "6": [
+                            "(O)Moss 5",
+                            "(O)770 8"
+                        ]
+                    }
+                },
+                "id_(o)aceynk.aloemilkfish_goldenmilkfish": {
+                    "RequiredTags": [
+                        "fish_goldenmilkfish"
+                    ],
+                    "SpawnTime": 5,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.1,
+                            "ItemID": "856",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.3,
+                            "ItemID": "186",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.5,
+                            "ItemID": "384",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 7
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.5,
+                            "ItemID": "812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.4,
+                            "ItemID": "559",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)566 1",
+                            "(O)576 3"
+                        ],
+                        "4": [
+                            "(O)454 4",
+                            "(O)597 12"
+                        ],
+                        "6": [
+                            "(O)337 5"
+                        ]
+                    }
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/UI",
+            "Entries": {
+				"PondQuery_StatusRequestPending_milkfish0": "{{i18n:fishpond.milkfish.pending0}}",
+				"PondQuery_StatusRequestPending_milkfish1": "{{i18n:fishpond.milkfish.pending1}}",
+				"PondQuery_StatusRequestComplete_milkfish0": "{{i18n:fishpond.milkfish.complete0}}",
+				"PondQuery_StatusRequestComplete_milkfish1": "{{i18n:fishpond.milkfish.complete1}}",
+				"PondQuery_StatusRequestPending_goldenmilkfish0": "{{i18n:fishpond.goldenmilkfish.pending0}}",
+                "PondQuery_StatusRequestPending_goldenmilkfish1": "{{i18n:fishpond.goldenmilkfish.pending1}}",
+				"PondQuery_StatusRequestComplete_goldenmilkfish0": "{{i18n:fishpond.goldenmilkfish.complete0}}"
+            }
+        }
+    ]
+}

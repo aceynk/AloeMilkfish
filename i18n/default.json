@@ -1,0 +1,26 @@
+{
+    "object.milkfish.displayname": "Milkfish",
+    "object.milkfish.description": "It's not actually made from milk, right?",
+
+    "object.goldenmilkfish.displayname": "Golden Milkfish",
+    "object.goldenmilkfish.description": "Just outside the city\nI was holding something\nno one's ever seen before.",
+
+    "fishpond.milkfish.status0": "live and let live, let 'em figure it out",
+    "fishpond.milkfish.status1": "i would give you all the things that i should keep to myself. other than {1} {0}.",
+    "fishpond.milkfish.status2": "and it stops and starts and stops and starts",
+    "fishpond.milkfish.status3": "take a picture, hope it lasts long",
+
+    "fishpond.goldenmilkfish.status0": "i know you are onto something",
+    "fishpond.goldenmilkfish.status1": "i was something of a mascot",
+
+    "fishpond.milkfish.pending0": "i let admiration get to my head",
+    "fishpond.milkfish.pending1": "this could go two ways now",
+
+    "fishpond.goldenmilkfish.pending0": "i know you are onto something",
+    "fishpond.goldenmilkfish.pending1": "and then they spoiled the lucky charm.",
+
+    "fishpond.milkfish.complete0": "beautiful everything beautiful everything",
+    "fishpond.milkfish.complete1": "i guess you never see it coming when its coming out of left field",
+    
+    "fishpond.goldenmilkfish.complete0": "the {0} song"
+}

@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Beach",
+                "Fish"
+            ],
+            "Entries": {
+                "Aceynk.AloeMilkfish_Milkfish": {
+                    "Id": "Aceynk.AloeMilkfish_Milkfish",
+                    "ItemId": "(O)Aceynk.AloeMilkfish_Milkfish",
+                    "Condition": "LOCATION_Season Here Fall Winter"
+                },
+                "Aceynk.AloeMilkfish_GoldenMilkfish": {
+                    "Id": "Aceynk.AloeMilkfish_GoldenMilkfish",
+                    "ItemId": "(0)Aceynk.AloeMilkfish_GoldenMilkfish",
+                    "Condition": "LOCATION_Season Here Fall Winter"
+                }
+            }
+        }
+    ]
+}

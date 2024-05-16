@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "Aceynk.AloeMilkfish_Milkfish": "Milkfish/50/mixed/13/71/600 1900/fall winter/rainy/690 .4 685 .1/4/.2/.7/3/true",
+                "Aceynk.AloeMilkfish_GoldenMilkfish": "Golden Milkfish/90/mixed/33/74/600 1900/fall winter/rainy/690 .4 685 .1/5/.001/25/10/false"
+            }
+        }
+    ]
+}
