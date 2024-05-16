@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Adds Milkfish as a catchable fish variant. And more.",
     "UniqueId": "Aceynk.AloeMilkfish",
-    "UpdateKeys": [],
+    "UpdateKeys": ["Github:aceynk/AloeMilkfish", "Nexus:24076"],
     "ContentPackFor": {
         "UniqueId": "Pathoschild.ContentPatcher"
     }
