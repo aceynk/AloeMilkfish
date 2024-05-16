@@ -12,11 +12,11 @@ I hope you enjoy! This is my first Stardew mod, and I'm hoping it won't be my la
 
 The lines of text used in descriptions and fish pond messages are lines from multiple songs in the album "Fishmonger" by underscores. You can find the album here:
 
-Youtube: https://youtu.be/pvw55mpRvs4 (flashing warning w/ music video)
-Spotify: https://open.spotify.com/album/5o9aTepLhqQL2gXuKPhd8g
-Bandcamp: https://underscores.bandcamp.com/album/fishmonger
-Soundcloud: https://soundcloud.com/underscores/sets/fishmonger
-... and probably elsewhere too.
+* Youtube: https://youtu.be/pvw55mpRvs4 (flashing warning w/ music video)
+* Spotify: https://open.spotify.com/album/5o9aTepLhqQL2gXuKPhd8g
+* Bandcamp: https://underscores.bandcamp.com/album/fishmonger
+* Soundcloud: https://soundcloud.com/underscores/sets/fishmonger
+* ... and probably elsewhere too.
 
 The "Golden Milkfish" added by this mod is a reference to the real life Golden Bangus, and you can find some information on it here:
 
